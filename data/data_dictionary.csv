@@ -1,0 +1,18 @@
+﻿table_name,field_name,description
+products,product_id,Unique product identifier; primary key
+products,sku,Stock keeping unit; unique product code
+products,unit_cost_lkr,Estimated unit acquisition cost in Sri Lankan Rupees (LKR)
+products,default_reorder_level,Default replenishment threshold for a product
+products,supplier_id,Supplier reference; links to suppliers.supplier_id
+warehouses,warehouse_id,Unique warehouse identifier; primary key
+warehouses,capacity_units,Illustrative warehouse capacity in units
+inventory,product_id + warehouse_id,One current stock record per product and warehouse
+inventory,opening_quantity,Opening stock at 1 January 2026
+inventory,quantity_on_hand,Current stock as at 11 November 2026
+inventory,reorder_level,Warehouse-specific low-stock threshold
+inventory,stock_status,"Derived from quantity_on_hand, reorder_level and maximum_stock_level"
+inventory,inventory_value_lkr,quantity_on_hand multiplied by product unit_cost_lkr
+stock_movements,movement_type,"RECEIPT, ISSUE, TRANSFER_IN, TRANSFER_OUT, ADJUSTMENT_IN or ADJUSTMENT_OUT"
+stock_movements,quantity,Positive movement quantity; movement_type determines direction
+stock_movements,reference_no,Groups related records; transfer in/out share the same reference
+stock_movements,year_month,Precomputed YYYY-MM field for monthly visualizations

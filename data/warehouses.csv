@@ -1,0 +1,6 @@
+﻿warehouse_id,warehouse_name,city,province,capacity_units
+WH001,Colombo Central Warehouse,Colombo,Western,1200
+WH002,Kandy Regional Warehouse,Kandy,Central,750
+WH003,Galle Distribution Centre,Galle,Southern,650
+WH004,Jaffna Regional Warehouse,Jaffna,Northern,550
+WH005,Kurunegala Storage Facility,Kurunegala,North Western,700

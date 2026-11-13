@@ -1,0 +1,13 @@
+﻿item,details
+Dataset type,Synthetic demonstration dataset; not actual company records.
+Currency,LKR (Sri Lankan Rupees).
+Coverage,1 January 2026 to 11 November 2026.
+Products,59
+Warehouses,5
+Inventory records,295
+Stock movement records,1713
+Stock consistency,Current quantity_on_hand is reconciled to opening_quantity plus all signed stock movements.
+Transfer logic,Each transfer is represented by a TRANSFER_OUT and TRANSFER_IN row sharing one reference_no.
+Movement logic,All quantities are positive; movement_type determines whether stock increases or decreases.
+Suggested dashboard,"KPIs, category value, stock status, warehouse comparison, monthly receipts/issues, top products, low-stock alerts."
+Important,"For a real SCM deployment, validate product costs, reorder thresholds, warehouse capacity and supplier details with the organization."

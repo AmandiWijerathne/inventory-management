@@ -1,0 +1,60 @@
+﻿product_id,sku,product_name,product_type,category,unit_of_measure,unit_cost_lkr,default_reorder_level,lead_time_days,supplier_id
+PRD001,SCM-1001,Dual Band Wi-Fi 6 Router,Router,Networking,units,28500,18,12,SUP001
+PRD002,SCM-1002,Enterprise Edge Router,Router,Networking,units,185000,5,20,SUP001
+PRD003,SCM-1003,24-Port Gigabit Network Switch,Switch,Networking,units,67500,10,18,SUP009
+PRD004,SCM-1004,48-Port Managed PoE Switch,Switch,Networking,units,245000,4,25,SUP009
+PRD005,SCM-1005,Ceiling Wi-Fi Access Point,Access Point,Networking,units,42000,12,14,SUP001
+PRD006,SCM-1006,Small Business Firewall Appliance,Firewall,Networking,units,165000,4,21,SUP001
+PRD007,SCM-1007,4G LTE Modem,Modem,Networking,units,14500,20,10,SUP005
+PRD008,SCM-1008,Cat6 Ethernet Cable Box (305m),Cable,Cables & Accessories,boxes,26500,15,12,SUP009
+PRD009,SCM-1009,Fiber Optic Patch Cord,Cable,Cables & Accessories,units,3200,35,10,SUP009
+PRD010,SCM-1010,Fiber Optic Cable Reel (1km),Cable,Cables & Accessories,reels,95000,6,18,SUP009
+PRD011,SCM-1011,RJ45 Connector Pack (100),Connector,Cables & Accessories,packs,1850,40,8,SUP012
+PRD012,SCM-1012,1500VA Line Interactive UPS,UPS,Power & Electrical,units,68500,8,15,SUP011
+PRD013,SCM-1013,650VA Backup UPS,UPS,Power & Electrical,units,28500,12,12,SUP011
+PRD014,SCM-1014,12V 7Ah UPS Battery,Battery,Power & Electrical,units,7800,20,10,SUP011
+PRD015,SCM-1015,6-Way Surge Protected Power Strip,Power Strip,Power & Electrical,units,4200,25,8,SUP011
+PRD016,SCM-1016,5kVA Portable Generator,Generator,Power & Electrical,units,385000,2,30,SUP011
+PRD017,SCM-1017,Business Laptop i5 16GB,Laptop,IT Equipment,units,265000,6,20,SUP001
+PRD018,SCM-1018,Business Desktop Computer,Desktop,IT Equipment,units,225000,5,20,SUP001
+PRD019,SCM-1019,24-inch LED Monitor,Monitor,IT Equipment,units,58500,10,14,SUP001
+PRD020,SCM-1020,USB Keyboard,Keyboard,IT Accessories,units,3200,30,7,SUP001
+PRD021,SCM-1021,Optical USB Mouse,Mouse,IT Accessories,units,1850,35,7,SUP001
+PRD022,SCM-1022,Laser Printer,Printer,Office Equipment,units,89500,5,18,SUP002
+PRD023,SCM-1023,Multifunction Photocopy Machine,Photocopier,Office Equipment,units,485000,2,30,SUP002
+PRD024,SCM-1024,Full HD Projector,Projector,Office Equipment,units,245000,2,25,SUP002
+PRD025,SCM-1025,Office Work Table,Desk,Furniture,units,42500,5,21,SUP010
+PRD026,SCM-1026,Ergonomic Office Chair,Chair,Furniture,units,28500,8,18,SUP010
+PRD027,SCM-1027,Steel Filing Cabinet,Cabinet,Furniture,units,38500,4,21,SUP010
+PRD028,SCM-1028,Conference Table (8-seater),Meeting Table,Furniture,units,125000,2,25,SUP010
+PRD029,SCM-1029,12000 BTU Inverter AC,Air Conditioner,Facilities & HVAC,units,245000,3,25,SUP008
+PRD030,SCM-1030,24000 BTU Inverter AC,Air Conditioner,Facilities & HVAC,units,385000,2,30,SUP008
+PRD031,SCM-1031,56-inch Ceiling Fan,Ceiling Fan,Facilities & HVAC,units,18500,8,14,SUP004
+PRD032,SCM-1032,18W LED Bulb,LED Bulb,Facilities & HVAC,units,950,60,7,SUP004
+PRD033,SCM-1033,LED Tube Light,Tube Light,Facilities & HVAC,units,1450,40,7,SUP004
+PRD034,SCM-1034,Heavy Duty Floor Broom,Broom,Cleaning Supplies,units,850,30,5,SUP007
+PRD035,SCM-1035,Microfiber Floor Mop,Mop,Cleaning Supplies,units,1850,20,5,SUP007
+PRD036,SCM-1036,Multi-purpose Floor Cleaner (5L),Detergent,Cleaning Supplies,cans,3250,15,7,SUP007
+PRD037,SCM-1037,Office Waste Bin 20L,Trash Bin,Cleaning Supplies,units,1450,20,7,SUP007
+PRD038,SCM-1038,A4 Paper Ream (500 sheets),A4 Paper,Stationery,reams,1850,80,5,SUP006
+PRD039,SCM-1039,Blue Ballpoint Pen Box (50),Pen,Stationery,boxes,1250,45,5,SUP006
+PRD040,SCM-1040,Lever Arch File,File Folder,Stationery,units,450,60,5,SUP006
+PRD041,SCM-1041,Magnetic Whiteboard 4x3 ft,Whiteboard,Office Equipment,units,18500,4,12,SUP002
+PRD042,SCM-1042,Marker Set (4 colours),Whiteboard Marker,Stationery,sets,950,30,5,SUP006
+PRD043,SCM-1043,Industrial Safety Helmet,Safety Helmet,Safety & PPE,units,2850,20,10,SUP012
+PRD044,SCM-1044,Reflective Safety Vest,Safety Vest,Safety & PPE,units,1850,25,8,SUP012
+PRD045,SCM-1045,Protective Work Gloves Pair,Safety Gloves,Safety & PPE,pairs,950,30,7,SUP012
+PRD046,SCM-1046,Electrician Tool Kit,Tool Kit,Tools & Hardware,kits,18500,5,14,SUP012
+PRD047,SCM-1047,Cordless Power Drill,Drill,Tools & Hardware,units,38500,3,18,SUP012
+PRD048,SCM-1048,6ft Aluminium Ladder,Ladder,Tools & Hardware,units,24500,3,14,SUP012
+PRD049,SCM-1049,Hot & Cold Water Dispenser,Water Dispenser,Facilities,units,48500,3,18,SUP002
+PRD050,SCM-1050,Workplace First Aid Kit,First Aid Kit,Safety & PPE,kits,6500,8,7,SUP003
+PRD051,SCM-1051,10m Heavy Duty Extension Cord,Extension Cord,Power & Electrical,units,4850,12,8,SUP011
+PRD052,SCM-1052,Cross-Cut Paper Shredder,Shredder,Office Equipment,units,38500,3,14,SUP002
+PRD053,SCM-1053,Barcode & Label Printer,Label Printer,IT Equipment,units,62500,3,15,SUP001
+PRD054,SCM-1054,Handheld Barcode Scanner,Barcode Scanner,IT Equipment,units,28500,5,12,SUP001
+PRD055,SCM-1055,Reusable Plastic Storage Pallet,Pallet,Warehouse Supplies,units,8500,15,10,SUP012
+PRD056,SCM-1056,Stackable Storage Bin 50L,Storage Bin,Warehouse Supplies,units,3250,25,7,SUP012
+PRD057,SCM-1057,Warehouse Platform Trolley,Hand Trolley,Warehouse Supplies,units,28500,3,14,SUP012
+PRD058,SCM-1058,Packaging Tape Carton (6 rolls),Packaging Tape,Warehouse Supplies,cartons,1850,20,5,SUP012
+PRD059,SCM-1059,POS Thermal Paper Roll,Thermal Paper,Stationery,rolls,650,50,5,SUP006
