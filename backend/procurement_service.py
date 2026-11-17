@@ -640,7 +640,7 @@ def procurement_spend_dashboard(
         FROM purchase_orders po
         JOIN purchase_order_items poi USING (purchase_order_id)
         JOIN products p USING (product_id)
-        JOIN suppliers s USING (supplier_id)
+        JOIN suppliers s ON s.supplier_id = po.supplier_id
         WHERE (:supplier_id = '' OR po.supplier_id = :supplier_id)
           AND (:category = '' OR p.category = :category)
           {date_filter_clause}

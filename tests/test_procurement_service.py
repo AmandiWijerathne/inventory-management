@@ -99,6 +99,14 @@ class ProcurementRecommendationQueryTests(unittest.TestCase):
             self.assertNotIn("start_date", params)
             self.assertNotIn("end_date", params)
 
+    @patch("backend.procurement_service.query_df", return_value=pd.DataFrame())
+    def test_supplier_spend_joins_supplier_to_purchase_order_explicitly(self, query_df) -> None:
+        procurement_spend_dashboard()
+
+        supplier_query = query_df.call_args_list[1].args[0]
+        self.assertIn("JOIN suppliers s ON s.supplier_id = po.supplier_id", supplier_query)
+        self.assertNotIn("JOIN suppliers s USING (supplier_id)", supplier_query)
+
     def test_create_purchase_order_inserts_parent_before_items(self) -> None:
         connection = _Connection(
             lambda sql, params: _Result([{
