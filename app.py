@@ -23,6 +23,7 @@ navigation = st.navigation(
         st.Page("pages/5_Stock_Movements.py", title="Stock movements", icon="🔄"),
         st.Page("pages/6_Alerts.py", title="Inventory alerts", icon="🔔"),
         st.Page("pages/7_Reports.py", title="Reports & analytics", icon="📈"),
+        st.Page("pages/8_Procurement.py", title="Procurement", icon="🛒"),
     ]
 )
 navigation.run()

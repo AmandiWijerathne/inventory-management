@@ -97,6 +97,20 @@ requirements.txt
    streamlit run app.py
    ```
 
+### Applying the procurement schema to an existing database
+
+After deploying a version that includes the procurement module, apply its
+additional tables to the same PostgreSQL database configured by `DATABASE_URL`:
+
+```powershell
+python -m database.init_db --no-create-database
+```
+
+Run this from the updated project root, using the application's Python
+environment and database configuration. The initializer uses
+`CREATE TABLE/INDEX IF NOT EXISTS`; it preserves existing tables and records.
+Reload Streamlit after the command completes. No CSV re-import is needed.
+
 ## Database and inventory rules
 
 - `inventory` has one record per product/warehouse pair. On-hand stock is split
